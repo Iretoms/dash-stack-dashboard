@@ -15,7 +15,7 @@ const initialState: ProductsState = {
 };
 
 export const fetchProducts = createAsyncThunk('products/fetchProducts', async () => {
-  const response = await axios.get('http://localhost:3001/products');
+  const response = await axios.get('https://json-server-echb.onrender.com/products');
   return response.data;
 });
 

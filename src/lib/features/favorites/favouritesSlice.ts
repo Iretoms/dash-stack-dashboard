@@ -15,7 +15,7 @@ const initialState: FavouritesState = {
 };
 
 export const fetchFavourites = createAsyncThunk('favourites/fetchFavourites', async () => {
-  const response = await axios.get('http://localhost:3001/favourites');
+  const response = await axios.get('https://json-server-echb.onrender.com/favourites');
   return response.data;
 });
 
