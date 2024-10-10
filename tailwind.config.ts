@@ -18,6 +18,9 @@ const config: Config = {
 			"dark-text": "#202224",
 			"gray-text": "#A6A6A6",
 			"gray-1": "#F1F4F9",
+			"gray-2":"#626262",
+			"gray-3":"#E2EAF8",
+			"gray-4": "#FAFBFD",
 			"noti-red": "#F93C65",
 
   		},
